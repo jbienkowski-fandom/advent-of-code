@@ -1,3 +1,3 @@
-# Advent of Code 2023
+# Advent of Code
 
-- [Day 1](./1/README.md)
+Selected tasks from Advent of Code from different years.
