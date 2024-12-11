@@ -1,0 +1,5 @@
+.idea
+.rpt2_cache
+.vscode
+.npm_cache/
+.DS_Store
