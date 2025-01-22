@@ -61,3 +61,8 @@ for (let i = 0; i < blinks; i++) {
 const result = [...stones].reduce((acc, [_, count]) => acc + count, 0);
 
 console.log('Result:', result);
+console.log(' === NERD STATS === ');
+console.log('MAX_SAFE_INT', Number.MAX_SAFE_INTEGER);
+console.log('Cached rules size:', cache.size);
+console.log('Stones cache size:', stones.size);
+console.log('Top 10 most common stones', [...stones].sort((a, b) => b[1] - a[1]).slice(0, 10));
